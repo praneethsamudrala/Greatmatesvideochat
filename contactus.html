@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg">
+        <a class="navbar-brand text text-white" href="homegm.html">
+          <p> GREAT MATES</p>
+        </a >
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link text text-white" href="homegm.html">
+              HOME<span class="sr-only"></span>
+            </a>
+            <a class="nav-link text text-white" href="vediochat.html">MEETING</a>
+            <a class="nav-link text text-white" href="contactus.html">CONTACT US</a>
+            <a class="nav-link text text-white" href="setting.html">SETTINGS</a>
+          </div>
+        </div>
+      </nav>
+<div class="container">
+<form onsubmit="sendEmail(); reset();">
+<h3>GET IN TOUCH</h3>
+<input type="text" id="name" placeholder="Your Name" required>
+<input type="email" id="email" placeholder="Email id" required>
+<input type="text" id="phone" placeholder="Phone no." required>
+<textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+<button onclick="submit()">Send</button>
+</form>
+</div>
+<script>sr="https://smtpjs.com/v3/smpt/js"</script>
+<script>
+    function sendEmail(){
+        Email.send({
+
+       
+        Host : "smtp.gmail.com",
+        Username : "Email",
+        Password : "Password",
+        To : 'Email',
+        From : document.getElementById("email").value,
+        Subject : "New Contact Form Enquiry", 
+        Body : "Name: " + document.getElementById("name").value
+            + "<br> Email: " +document.getElementById("email").value
+            + "<br> Phone no: " +document.getElementById("phone").value
+            + "<br> Message: " +document.getElementById("message").value
+    }).then(
+        function myFunction() {
+  alert("Hello! I am an alert box!");
+}
+);
+}
+</script>
+</body>
+</html>

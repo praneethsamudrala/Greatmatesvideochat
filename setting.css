@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.bg{
+    background-color: #001c32;
+}
+.navbar-image {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+.text{
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.gm-logo{
+    height: 80px;
+    width:80px;
+}
+
+.total-bg{
+    background-color: #cacfd3;
+    background-size: cover;
+    height: 105vh;
+    padding-left: 300px;
+    padding-top: 120px;
+    margin-bottom: 20px;
+    
+}
+.bg-in{
+    background-color: white;
+    height: 64vh;
+    width: 12vw;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.heading{
+    color: #0d2436;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: "Roboto";
+}
+.under-1{
+    color: #0d2436;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+.main{
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 15px;
+    
+}
+.under{
+    padding-left: 15px;
+}
+.icon {
+
+    font-size: 18px;
+  }
+.icon-1{
+    font-size: 16px;
+  }
+  .icon-2{
+    font-size: 14px;
+}
+.portfolio-footer-section1 {
+    color: #ffffff;
+    background-color: #001c32;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.image{
+    height: 60px;
+    width: 60px;
+}
+.portfolio-footer-paragraph1 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.portfolio-footer-paragraph2 {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+p:hover{
+    opacity: 1;
+    cursor: pointer;
+    
+    
+}
+.highlight{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+.bg-white{
+    background-color: white;
+    height: 45vh;
+    width: 35vw;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.icon-white{
+    font-size: 22px;
+}
+.change{
+    padding-top: 170px;
+    padding-left: 25px;
+}
+.button{
+    background-color: #001c32;
+    color: white;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 9px;
+    border-width: 0px;
+    height: 50px;
+    width: 150px;
+}
+.final{
+    color: #0d2436;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+.vr-optic-image {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.in-paragraph-1{
+    color: #0d2436;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.in-paragraph{
+    color: #989b9e;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+}
+.greathead{
+    color: #0d2436;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 500;
+}
